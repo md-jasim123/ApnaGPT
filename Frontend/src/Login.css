@@ -1,0 +1,63 @@
+.loginPage {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #212121;
+}
+
+.loginBox {
+    background-color: #2f2f2f;
+    padding: 2rem;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 320px;
+}
+
+.loginBox h2 {
+    color: white;
+    text-align: center;
+}
+
+.loginBox input {
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: none;
+    background-color: #424242;
+    color: white;
+    font-size: 0.9rem;
+    outline: none;
+}
+
+.loginBox button {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: #2563eb;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.loginBox button:hover {
+    background-color: #1d4ed8;
+}
+
+.toggleText {
+    color: #9ca3af;
+    text-align: center;
+    cursor: pointer;
+    font-size: 0.85rem;
+}
+
+.toggleText:hover {
+    color: white;
+}
+
+.errorMsg {
+    color: #f87171;
+    font-size: 0.8rem;
+    text-align: center;
+}
